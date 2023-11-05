@@ -1,0 +1,321 @@
+
+            /* GENERAL */
+
+body{
+    font-family:'Noto Serif NP Hmong', serif;
+    line-height: 1.5;
+    color: rgb(46, 44, 47);
+}
+
+.button {
+    text-decoration: none;
+    color:beige;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button:hover{
+    padding:2px;
+    background-color: rgb(114, 155, 121);
+}
+
+nav{
+    position: sticky;
+    top:0;
+    background-color:rgb(168, 205, 176);
+    padding: 5px;
+    border-radius: 100px;
+}
+
+h1 {
+    color:rgb(71, 91, 99);
+    font-family: 'Young Serif', sans-serif;
+    font-size: 60px;
+    line-height: 0.7;
+    margin: 20px 2px 0 ;
+  }
+  
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.profile{
+    border: 2px solid rgb(46, 44, 47); 
+    padding: 10px;
+    margin: 10px;
+}
+
+            /* PROFILE */
+
+#bpro h2{
+    display:block;
+}
+
+#phone{
+    margin: 100px 0 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.top ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+}
+
+.beyonce img{
+        float:inline-end;
+        padding: 10px;
+    }
+
+           /* ABOUT ME*/
+.myself h2{
+    color:rgb(243, 232, 238);
+    padding: 8px;
+    background-color: rgb(71, 91, 99);
+}
+.myself h3{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.myself h4{
+    margin-top:0;
+    margin-bottom:5;
+}
+
+.myself ul{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+#end h2{
+    color: rgb(71, 91, 99);
+}
+
+.jobs li{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.jobs p{
+    margin-top: 0;
+}
+
+           /* FOOTER*/
+
+
+footer h1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#blink{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color:rgb(114, 155, 121);
+    color:rgb(243, 232, 238);
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* BLOG HEADER */
+
+.blogs img{
+    max-width: 350px;
+    max-height: 200px;
+    width: 95%;
+    height: 80%;
+}
+#btop p{
+    font-size: 20px;
+}
+
+.grid a:hover{
+    padding:2px;
+    background-color: rgb(114, 155, 121);
+}
+
+.grid h3{
+    width: 350px;
+}
+
+.grid a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+    font-size: 20px;
+    background-color:rgb(71, 91, 99);
+    color:rgb(243, 232, 238);
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.btop h2{
+    background-color: rgb(114, 155, 121);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+article img{
+    max-width: 600px;
+    max-height: 400px;
+    width: 90%;
+    height: 70%;
+}
+
+/* BLOG 1 */
+
+.post{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1;
+}
+
+.post a{
+    display: flex;
+    justify-content: center;
+}
+
+ol{
+    list-style-type: none;
+    text-align: center;
+}
+
+article h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+ol li{
+    font-size: 25px;
+}
+
+#up{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* BLOG 2 */
+.post2{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+}
+
+.post2 a{
+    display: flex;
+    justify-content: center;
+}
+
+.first2{
+    width: 1200px;
+    border: 2px solid rgb(46, 44, 47); 
+    padding: 10px;
+    margin: 0px 0px 20px 238px;
+    overflow: hidden;
+}
+
+
+/* BLOG 3 */
+
+.text{
+    text-align: center;
+}
+
+.text li{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+
+/* Media */
+@media (max-width: 1130px){
+    h1{
+        font-size:50px;
+        line-height: 0.8;
+        margin: 20px 2px 0 ;
+    }
+
+    h2{
+        font-size: 20px ;
+    }
+}
+
+
+@media screen and (min-width:800px){
+
+    .button{
+        font-size: 20px;
+        background-color:rgb(168, 205, 176);
+    }
+    
+    body{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width:1400px){
+
+    .grid{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (max-width: 799px){
+    h1{
+        font-size:40px;
+        line-height: 1;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .beyonce{
+        overflow: hidden;
+    }
+
+    #beyonce{
+        display: flex;
+        justify-content: center;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+}
